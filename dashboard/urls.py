@@ -26,4 +26,5 @@ urlpatterns = [
     # path('teacher/<int:pk>/edit/',teacher_edit, name='teacher_edit'),
     # path('teacher/<int:pk>/delete/',teacher_delete, name='teacher_delete'),
     # path('teacher/list/',teacher_list, name='teacher_list'),
+    path('profile/', profile, name='profile'),
     ]

@@ -225,3 +225,6 @@ def home_page(request):
 #     }
 #     return render(request,'teacher/list.html',ctx)
 #
+@login_required_decorator
+def profile(request):
+    return render(request,'profile.html')
